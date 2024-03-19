@@ -1,0 +1,19 @@
+[package]
+name = "income-app"
+version = "0.1.0"
+authors = ["KDT <developer.thiru@gmail.com>"]
+edition = "2021"
+build = "build.rs"
+description = "A simple desktop app made with Rust and Slint UI that divides and caluclates income"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+slint = "1.4"
+
+[build-dependencies]
+slint-build = "1.4"
+
+[package.metadata.bundle]
+name = "Income Divider"
+identifier = "io.github.KDT2006.income-calculator-rust"
